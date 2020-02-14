@@ -1,0 +1,43 @@
+*body, html
+{
+    margin: 0;
+    padding: 0;
+}
+
+#container
+{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+  }
+  
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+    border-collapse: collapse;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .list{
+      margin-top: 50px;
+  }
+
+  .add{
+    color: rgb(31, 77, 231);
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  
